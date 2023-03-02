@@ -1,0 +1,28 @@
+.header h1 {
+    background-image: url("pattern.jpeg");
+    font-size: 200px;
+    text-align: center;
+    margin: 0 0;
+}
+
+h2, .brushes .frames .paint {
+    color: white;
+    font-size: 32px;
+}
+
+.brushes h2 {
+    background-color: greenyellow;
+}
+
+.frames h2 {
+    background-color: lightcoral;
+}
+
+.paint h2 {
+    background-color: skyblue;
+}
+
+span {
+    color: blueviolet;
+    font-weight: bold;
+}

@@ -1,0 +1,59 @@
+.description>h1 {
+    color: blue;
+    text-align: center;
+}
+
+table td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: center;
+}
+
+#empty-cell {
+    background-color: black;
+}
+
+#green-circle {
+    width: 500px;
+    height: 500px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    border-radius: 250px;
+    background: greenyellow;
+    overflow: visible;
+}
+
+#red-circle {
+    width: 500px;
+    height: 500px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    border-radius: 250px;
+    background: red;
+    position: relative;
+    right: 125px;
+    overflow: visible;
+}
+
+
+#green-circle,
+#red-circle {
+    display: inline-block;
+}
+
+
+#black-circle {
+    width: 500px;
+    height: 500px;
+    -webkit-border-radius: 250px;
+    -moz-border-radius: 250px;
+    border-radius: 250px;
+    background: black;
+    position: relative;
+    left: 250px;
+    bottom: 250px;
+}
