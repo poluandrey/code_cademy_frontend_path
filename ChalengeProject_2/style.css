@@ -1,0 +1,67 @@
+.color-container {
+    border: 1px black solid;
+    background-color: cadetblue;
+    align-items: center;
+}
+
+.blue,
+.pink,
+.MintGreen,
+.beige {
+    border: 1px black solid;
+    text-align: center;
+    width: 45%;
+    margin: 10px 10px;
+    display: inline-block;
+    color: #fff;
+}
+
+.blue {
+    background-color: #2d5dcc;
+}
+
+.pink {
+    background-color: #d957d9;
+}
+
+.MintGreen {
+    background-color: #4fe0b0;
+    color: black;
+}
+
+.beige {
+    background-color: #efd9ca;
+    color: black;
+}
+
+.fonts-container {
+    background-color: rebeccapurple;
+    color: wheat;
+    border: 1px black medium;
+    display: block;
+}
+
+.font-panel {
+    display: inline-block;
+    width: 45%;
+}
+
+.font-label {
+    text-decoration: underline;
+}
+
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+
+.nunito-sans {
+    font-family: 'Nunito Sans', monospace;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.bold {
+    font-weight: 700;
+}
