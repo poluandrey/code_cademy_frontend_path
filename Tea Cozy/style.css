@@ -1,0 +1,116 @@
+* {
+    background-color: black;
+    font-family: Halvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    height: 69px;
+}
+
+#logo {
+    height: 50px;
+    margin-left: 10px;
+}
+
+.navigation {
+    text-decoration: underline;
+}
+
+.navigation a {
+    margin-right: 5px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main {
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg?_gl=1*mlijzi*_ga*NDY3ODAxOTI2My4xNjc0NTgyOTg5*_ga_3LRZM6TM9L*MTY3ODAxNjk1My41NS4xLjE2NzgwMTY5NTkuNTQuMC4w");
+
+}
+
+.mission {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 1200px;
+}
+
+.mission h2, h4 {
+    margin: 0 0;
+}
+
+.tea {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 1000px;
+
+}
+
+.items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.item img {
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.descr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 1200px;
+    height: 500px;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg?_gl=1*1ls0zdm*_ga*NDY3ODAxOTI2My4xNjc0NTgyOTg5*_ga_3LRZM6TM9L*MTY3ODA0MDU2MC41Ny4xLjE2NzgwNDMwNzYuNTguMC4w);
+}
+
+.loc-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.loc-items .item {
+    width: 300px;
+}
+
+.location h2{
+    background-color: transparent;
+}
